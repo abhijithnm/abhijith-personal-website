@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijith's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('https://via.placeholder.com/1200x400') no-repeat 0 -400px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .bio, .skills, .contact {
+            padding: 30px 20px;
+            background: #ffffff;
+            margin: 20px 0;
+        }
+        .skills ul {
+            padding: 0;
+            list-style: none;
+        }
+        .skills li {
+            background: #e8491d;
+            color: #ffffff;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Abhijith's Personal Webpage</h1>
+            <nav>
+                <ul>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="showcase">
+        <div class="container">
+            <h1>Welcome to My Personal Webpage</h1>
+            <p>Your go-to place to know more about me and my work</p>
+        </div>
+    </section>
+    <section id="bio" class="bio">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! My name is Abhijith and I am a software developer. I have a passion for coding and love to create innovative solutions that make a difference. With expertise in various programming languages and technologies, I strive to continuously improve and keep up with the latest trends in the industry.</p>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>HTML & CSS</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you would like to get in touch with me, feel free to reach out through the following methods:</p>
+            <ul>
+                <li>Email: abhijith@example.com</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/abhijith">Abhijith's LinkedIn</a></li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>Abhijith's Personal Webpage &copy; 2024</p>
+    </footer>
+</body>
+</html>
